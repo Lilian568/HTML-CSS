@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.google.com/specimen/Open+Sans') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0 10rem;
+    background-color: #f7f1eb;
+}
+
+.container {
+    position: relative;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Add styles for the header section */
+.header {
+    background-color: #f7f1eb;
+    color: #f7f1eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+}
+
+.header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul.menu li {
+    display: inline-block;
+    height: 100%;
+}
+
+.header nav ul.menu li a {
+    text-decoration: none;
+    color: #1f1f1f;
+    padding: 1.4rem 1.5rem;
+    transition: background-color 0.3s;
+}
+
+.header nav ul.menu li a:hover {
+    background-color: #1f1f1f;
+    color: #dcdcdc;
+}
+
+/* Add styles for the home section */
+.home,
+.products {
+    text-align: center;
+}
+
+.home-content,
+.products-content {
+    padding: 2.5rem;
+    padding-top: 10rem;
+}
+
+.home-content h1 {
+    font-size: 2.25rem;
+}
+
+.home-content p {
+    padding: 1rem 10rem;
+}
+
+.home-image,
+.products-image {
+    width: 100%;
+    height: auto;
+}
+
+.products h1 {
+    text-align: left;
+    font-size: 2.25rem;
+}
+
+.products .products-text {
+    text-align: left;
+    padding: 1rem;
+}
+
+.products .products-list {
+    display: grid;
+    padding: 2.5rem;
+    gap: 2.5rem;
+    text-align: left;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.products .products-list .product {
+    background-color: #c6c6c6;
+    padding: 1.5rem;
+}
+
+.products .products-list .product .product-name {
+    text-align: left;
+}
+
+.products .products-list .product img {
+    width: 100%;
+    height: auto;
+}
+
+.products .products-list .product .product-subtitle {
+    text-align: left;
+    margin: 0.25rem 0;
+    font-style: italic;
+    color: #1f1f1f;
+}
+
+/* Add styles for the contact section */
+.contact h1 {
+    font-size: 2.25rem;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2.5rem;
+}
+
+.contact .contact-content {
+    font-style: italic;
+}
+
+.contact .contact-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+.contact .contact-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+
+    .header nav ul.menu li a {
+        padding: 1.4rem 1rem;
+    }
+
+    .home-content p,
+    .products .products-text {
+        padding: 1rem 5rem;
+    }
+
+    .products .products-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Add media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .logo {
+        margin-bottom: 1rem;
+    }
+
+    .header nav ul.menu li {
+        margin: 0.5rem 0;
+    }
+
+    .home-content p,
+    .products .products-text {
+        padding: 1rem 1rem;
+    }
+
+    .products .products-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact .contact-content {
+        margin-bottom: 1rem;
+    }
+}
