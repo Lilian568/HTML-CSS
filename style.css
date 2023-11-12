@@ -73,8 +73,7 @@ body {
 
 .home-content,
 .products-content {
-    padding: 2.5rem;
-    padding-top: 10rem;
+    padding: 10rem 2.5rem 2.5rem;
 }
 
 .home-content h1 {
@@ -123,88 +122,216 @@ body {
     height: auto;
 }
 
-.products .products-list .product {
-    text-align: left;
-    margin: 0.25rem 0;
-    font-style: italic;
-    color: #1f1f1f;
-}
-
-/* Add styles for the contact section */
-.contact h1 {
-    font-size: 2.25rem;
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 2.5rem;
-}
-
-.contact .contact-content {
-    font-style: italic;
-}
-
-.contact .contact-content a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #1f1f1f;
-}
-
-.contact .contact-image img {
-    width: 100%;
-    height: auto;
-}
-
-@media (max-width: 1024px) {
-
-    .header nav ul.menu li a {
-        padding: 1.4rem 1rem;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .main-product-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://cdn.notinoimg.com/social/skin1004/8809576261233_01-o/skin1004-madagascar-centella-travel-kit-matkasarja-herkalle-ja-artyneelle-iholle_.jpg") no-repeat;
+        background-size: 100%;
     }
-
-    .home-content p,
-    .products .products-text {
-        padding: 1rem 5rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main-product-image {
+        height: 768px;
+        width: 100%;
+        background: url("https://cdn.notinoimg.com/social/skin1004/8809576261233_01-o/skin1004-madagascar-centella-travel-kit-matkasarja-herkalle-ja-artyneelle-iholle_.jpg") no-repeat;
+        background-size: 100%;
     }
-
-    .products .products-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact {
-        grid-template-columns: 1fr;
+}
+@media only screen and (min-width: 992px) {
+    .main-product-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://cdn.notinoimg.com/social/skin1004/8809576261233_01-o/skin1004-madagascar-centella-travel-kit-matkasarja-herkalle-ja-artyneelle-iholle_.jpg") no-repeat;
+        background-size: 100%;
     }
 }
 
-/* Add media query for smaller screens (e.g., mobile) */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .header .logo {
-        margin-bottom: 1rem;
-    }
-
-    .header nav ul.menu li {
-        margin: 0.5rem 0;
-    }
-
-    .home-content p,
-    .products .products-text {
-        padding: 1rem 1rem;
-    }
-
-    .products .products-list {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .contact {
-        grid-template-columns: 1fr;
-    }
-
-    .contact .contact-content {
-        margin-bottom: 1rem;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .Brand-name {
+        height: 300px;
+        width: 100%;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .Brand-name {
+        height: 300px;
+        width: 100%;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Brand-name {
+        height: 372px;
+        width: 750px;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .product-1-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .product-1-image {
+        height: 768px;
+        width: 100%;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .product-1-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://cdn.shopify.com/s/files/1/0590/4538/0253/files/logo_3ce60e3c-e671-45a3-b6b2-1c7f4cd826e5.png?v=1630311102") no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .product-2-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-d0QCHAyd4eq6pMFQCxB9BEhOaDiS7xccLw&usqp=CAU") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .product-2-image {
+        height: 768px;
+        width: 100%;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-d0QCHAyd4eq6pMFQCxB9BEhOaDiS7xccLw&usqp=CAU") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .product-2-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-d0QCHAyd4eq6pMFQCxB9BEhOaDiS7xccLw&usqp=CAU") no-repeat;
+        background-size: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .product-3-image {
+        height: 360px;
+        width: 100%;
+        background: url("https://www.yeppo.fi/cdn/shop/products/skin1004-ampoule-serum-coming-soon-tea-trica-relief-ampoule-37221009817846_1000x_png.webp?v=1656000014&width=480") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .product-3-image {
+        height: 600px;
+        width: 100%;
+        background: url("https://www.yeppo.fi/cdn/shop/products/skin1004-ampoule-serum-coming-soon-tea-trica-relief-ampoule-37221009817846_1000x_png.webp?v=1656000014&width=480") no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .product-3-image {
+        height: 360px;
+        width: 100%;
+        background: url("https://www.yeppo.fi/cdn/shop/products/skin1004-ampoule-serum-coming-soon-tea-trica-relief-ampoule-37221009817846_1000x_png.webp?v=1656000014&width=480") no-repeat;
+        background-size: 100%;
+    }
+}
+
+        .products .products-list .product {
+            text-align: left;
+            margin: 0.25rem 0;
+            font-style: italic;
+            color: #1f1f1f;
+        }
+
+        /* Add styles for the contact section */
+
+        .contact h1 {
+            font-size: 2.25rem;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 2.5rem;
+        }
+
+        .contact .contact-content {
+            font-style: italic;
+        }
+
+        .contact .contact-content a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1f1f1f;
+        }
+
+        .contact .contact-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 1024px) {
+
+            .header nav ul.menu li a {
+                padding: 1.4rem 1rem;
+            }
+
+            .home-content p,
+            .products .products-text {
+                padding: 1rem 5rem;
+            }
+
+            .products .products-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .contact {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Add media query for smaller screens (e.g., mobile) */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header .logo {
+                margin-bottom: 1rem;
+            }
+
+            .header nav ul.menu li {
+                margin: 0.5rem 0;
+            }
+
+            .home-content p,
+            .products .products-text {
+                padding: 1rem 1rem;
+            }
+
+            .products .products-list {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .contact {
+                grid-template-columns: 1fr;
+            }
+
+            .contact .contact-content {
+                margin-bottom: 1rem;
+            }
+        }
